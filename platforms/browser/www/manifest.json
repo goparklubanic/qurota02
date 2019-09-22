@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "QurotaWS 0.1",
+  "short_name": "QurotaWS 0.1",
+  "version": "com.phonegap.helloworld",
+  "description": "Monitoring Pembelajaran Bagi Wali Murid Siswa Kelas A PAUD Qurota `Ayun Banjarnegara",
+  "author": "PhoneGap Team",
+  "icons": [],
+  "start_url": "index.html"
+}
