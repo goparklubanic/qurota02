@@ -31,14 +31,6 @@ $(document).ready(function(){
             getJurnal();
         })
     })
-
-    /* back button handler */
-    navigator.Backbutton.goHome(function() {
-        console.log('success')
-      }, function() {
-        console.log('fail')
-      });
-    /* back button handler */
 })
 
 function getJurnal(){
@@ -53,3 +45,11 @@ function getJurnal(){
         })
     })
 }
+
+/* back button handler */
+navigator.Backbutton.goHome(function() {
+    window.location="index.html";
+  }, function() {
+    console.log('fail')
+  });
+/* back button handler */

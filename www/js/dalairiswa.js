@@ -54,13 +54,6 @@ $(document).ready( function(){
         window.location='index.html';
     })
 
-    /* back button handler */
-      navigator.Backbutton.goHome(function() {
-        console.log('success')
-      }, function() {
-        console.log('fail')
-      });
-    /* back button handler */
 })
 
 function trimTgl(tgl){
@@ -68,3 +61,11 @@ function trimTgl(tgl){
     let th = t[0].substr(2,2);
     return (th+t[1]+t[2]);
 }
+
+/* back button handler */
+navigator.Backbutton.goHome(function() {
+    window.location="index.html";
+  }, function() {
+    console.log('fail')
+  });
+/* back button handler */
